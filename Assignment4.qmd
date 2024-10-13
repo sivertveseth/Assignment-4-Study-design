@@ -15,7 +15,17 @@ bibliography: resources/referanser.bib
 csl: resources/apa.csl
 ---
 
-## Running Code
+## Studier
+
+1.  [Muscle Adaptations to Plyometric vs. Resistance Training in Untrained Young Men](https://journals.lww.com/nsca-jscr/fulltext/2008/11000/muscle_adaptations_to_plyometric_vs__resistance.12.aspx)
+
+2.  [Effects of Plyometric and Resistance Training on Muscle Strength, Explosiveness, and Neuromuscular Function in Young Adolescent Soccer Players](https://journals.lww.com/nsca-jscr/fulltext/2018/11000/effects_of_plyometric_and_resistance_training_on.6.aspx)
+
+3.  [A Comparison of the Effects of Short-Term Plyometric and Resistance Training on Lower-Body Muscular Performance](https://journals.lww.com/nsca-jscr/fulltext/2018/10000/a_comparison_of_the_effects_of_short_term.7.aspx)
+
+4.  [Effects of Plyometric Training on Sonographic Characteristics of Quadriceps Muscle and Patellar Tendon, Quadriceps Strength, and Jump Height in Adolescent Female Volleyball Players](https://web-p-ebscohost-com.ezproxy.inn.no/ehost/pdfviewer/pdfviewer?vid=0&sid=6c4219d2-a393-4b87-8f3d-fe60b9c549a8%40redis)
+
+5.  [Evaluation of Plyometric Exercise Training, Weight Training, and Their Combination on Vertical Jumping Performance and Leg Strength](https://journals.lww.com/nsca-jscr/abstract/2000/11000/evaluation_of_plyometric_exercise_training,_weight.16.aspx)
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
