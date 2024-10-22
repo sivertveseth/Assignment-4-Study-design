@@ -15,29 +15,68 @@ bibliography: resources/referanser.bib
 csl: resources/apa.csl
 ---
 
-## Studier
+# Innledning
 
-1.  [Muscle Adaptations to Plyometric vs. Resistance Training in Untrained Young Men](https://journals.lww.com/nsca-jscr/fulltext/2008/11000/muscle_adaptations_to_plyometric_vs__resistance.12.aspx)
+Tradisjonelt sett er plyometrisk trening den vanligste treningsmetoden for å forbedre en persons evne til rask kraftutvikling, og er derfor ofte brukt innen sprint- og hoppidretter (**ref, en metaanalyse maybe**). Selv om evnen til rask kraftutvikling er viktig for prestasjon, er utvikling av maksimal kraft også viktig. Et individs evne til å produsere impuls, som er et produkt av rate of force development (RFD) og maksimal kraft, er en avgjørende egenskapen for prestasjon i eksplosive og kraftfulle idretter (**ref, boken om impuls**). For å bedre forstå hvordan plyometrisk trening påvirker prestasjon i slike idretter, har jeg valgt ut fem studier som ser nærmere på effekten av plyometrisk trening på muskelstyrke. 
 
-2.  [Effects of Plyometric and Resistance Training on Muscle Strength, Explosiveness, and Neuromuscular Function in Young Adolescent Soccer Players](https://journals.lww.com/nsca-jscr/fulltext/2018/11000/effects_of_plyometric_and_resistance_training_on.6.aspx)
+De fem inkluderte studiene vil bli analysert for styrker og svakheter ved hjelpe av QALMRI-metoden (**ref**). I stedet for å gi en detaljert gjennomgang av hver enkelt studie, vil jeg fremheve likheter og forskjeller mellom studiene, med et hovedfokus på deres design og valg av statistiske analyser for å besvare forskningsspørsmålene. Til slutt vil jeg komme med min anbefaling for hvordan fremtidige studier bør designes for best mulig å undersøke effekten av plyometrisk trening på muskelstyrke. 
 
-3.  [A Comparison of the Effects of Short-Term Plyometric and Resistance Training on Lower-Body Muscular Performance](https://journals.lww.com/nsca-jscr/fulltext/2018/10000/a_comparison_of_the_effects_of_short_term.7.aspx)
+# Analyse
 
-4.  [Effects of Plyometric Training on Sonographic Characteristics of Quadriceps Muscle and Patellar Tendon, Quadriceps Strength, and Jump Height in Adolescent Female Volleyball Players](https://web-p-ebscohost-com.ezproxy.inn.no/ehost/pdfviewer/pdfviewer?vid=0&sid=6c4219d2-a393-4b87-8f3d-fe60b9c549a8%40redis)
+Besvare spørsmål 1 og 2
+1. What was the broader problem the authors are trying to resolve in the study?
+2. What are the specific questions the authors are trying to answer?
 
-5.  [Evaluation of Plyometric Exercise Training, Weight Training, and Their Combination on Vertical Jumping Performance and Leg Strength](https://journals.lww.com/nsca-jscr/abstract/2000/11000/evaluation_of_plyometric_exercise_training,_weight.16.aspx)
+Beskriv det overordna målet dei ulike studiene prøver å besvare. Deretter kan man sjå om dei er noko ulikheter mellom kva dei ønsker å studere.
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+Kan kanskje lure inn spørsmål 3 her og
+3. Is the specific question framed as an hypothesis or a question?
 
-```{r}
-1 + 1
-```
+Svar deretter på spørsmål 4 om det er relevant
+If the authors have formulated a hypothesis, what alternative explanations can you think of that could potentially explain the data that the authors hypothesize?
 
-You can add options to executable code like this
+Svare på spørsmål 5
+5. What is the logic of the hypothesis or the question. Try to create a “line of logic” between the introduction and the question/hypothesis.
 
-```{r}
-#| echo: false
-2 * 2
-```
+Kan man kanskje her lage ein figur? Det overordna målet øverst og trekke det ut til kva ulike måtene studiene har valgt å svare på spørsmålet. Også derfra kanskje dele dei inn i dei ulike spørsmålene.
 
-The `echo: false` option disables the printing of code (only output is displayed).
+## Metode
+
+Svare på spørsmål 6
+6. Describe the study design. Use Hulley, (2013), Chapters 7-13 in your analysis.
+
+Bruke her pensumboken, og forklare dei ulike metodene. 
+
+Spørsmål 7. og 8. kan besvares i samme avsnitt
+7. Describe the sample and if the study defines the population.
+8. Describe the method of recruiting participants to the study. Did the authors justify their sample size (i.e. did they do a power calculation)?
+
+Kva var utvalget og korleis gjorde dei det? Si noko om ulikhet på gruppene melloms studiene - står det noko om dei meiner det er homogene eller heterogene?
+
+Neste avsnitt skriver eg om spørsmål 9. og 10.
+9. Describe how the study was conducted (what tests was performed when etc.)
+10. Describe the variables in the study, what variables relate to the question/hypothesis?
+
+Her er det ganske rett frem. Bruk pensumboken for kva tester som har blitt brukt. Kva variabler har blitt brukt og kvifor er dei relevante?
+
+Rund av med kva for statistiske tester/analyser har dei brukt for å gjøre interferens? Spm 11.
+11. What methods did the authors use to make claims (what statistical tests were used)
+
+## Resultat
+
+Svar på spørsmål 12
+12. What were the main results of the study, did the authors answer their question/address their hypothesis?
+
+Oppsummer resultatene deires, er det noko forskjell? Har dei svart på det dei ønsket?
+
+## Slutninger
+
+Skriv eit avsnitt der du svarer på både spm 13. og 14
+13. What could the authors conclude from the study?
+14. What did the authors conclude about the study population?
+
+# Avrunding
+
+Kom med din anbefaling for hvordan fremtidige studier bør designes for best mulig å undersøke effekten av plyometrisk trening på muskelstyrke.
+
+Kort og konsist - kan bruke pensumboken for å begrunne kvifor. 

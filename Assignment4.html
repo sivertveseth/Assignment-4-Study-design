@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -80,7 +46,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#studier" id="toc-studier" class="nav-link active" data-scroll-target="#studier"><span class="header-section-number">1</span> Studier</a></li>
+  <li><a href="#innledning" id="toc-innledning" class="nav-link active" data-scroll-target="#innledning"><span class="header-section-number">1</span> Innledning</a></li>
+  <li><a href="#analyse" id="toc-analyse" class="nav-link" data-scroll-target="#analyse"><span class="header-section-number">2</span> Analyse</a>
+  <ul class="collapse">
+  <li><a href="#metode" id="toc-metode" class="nav-link" data-scroll-target="#metode"><span class="header-section-number">2.1</span> Metode</a></li>
+  <li><a href="#resultat" id="toc-resultat" class="nav-link" data-scroll-target="#resultat"><span class="header-section-number">2.2</span> Resultat</a></li>
+  <li><a href="#slutninger" id="toc-slutninger" class="nav-link" data-scroll-target="#slutninger"><span class="header-section-number">2.3</span> Slutninger</a></li>
+  </ul></li>
+  <li><a href="#avrunding" id="toc-avrunding" class="nav-link" data-scroll-target="#avrunding"><span class="header-section-number">3</span> Avrunding</a></li>
   </ul>
 </nav>
 </div>
@@ -111,32 +84,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="studier" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="studier"><span class="header-section-number">1</span> Studier</h2>
-<ol type="1">
-<li><p><a href="https://journals.lww.com/nsca-jscr/fulltext/2008/11000/muscle_adaptations_to_plyometric_vs__resistance.12.aspx">Muscle Adaptations to Plyometric vs.&nbsp;Resistance Training in Untrained Young Men</a></p></li>
-<li><p><a href="https://journals.lww.com/nsca-jscr/fulltext/2018/11000/effects_of_plyometric_and_resistance_training_on.6.aspx">Effects of Plyometric and Resistance Training on Muscle Strength, Explosiveness, and Neuromuscular Function in Young Adolescent Soccer Players</a></p></li>
-<li><p><a href="https://journals.lww.com/nsca-jscr/fulltext/2018/10000/a_comparison_of_the_effects_of_short_term.7.aspx">A Comparison of the Effects of Short-Term Plyometric and Resistance Training on Lower-Body Muscular Performance</a></p></li>
-<li><p><a href="https://web-p-ebscohost-com.ezproxy.inn.no/ehost/pdfviewer/pdfviewer?vid=0&amp;sid=6c4219d2-a393-4b87-8f3d-fe60b9c549a8%40redis">Effects of Plyometric Training on Sonographic Characteristics of Quadriceps Muscle and Patellar Tendon, Quadriceps Strength, and Jump Height in Adolescent Female Volleyball Players</a></p></li>
-<li><p><a href="https://journals.lww.com/nsca-jscr/abstract/2000/11000/evaluation_of_plyometric_exercise_training,_weight.16.aspx">Evaluation of Plyometric Exercise Training, Weight Training, and Their Combination on Vertical Jumping Performance and Leg Strength</a></p></li>
-</ol>
-<p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-<p>You can add options to executable code like this</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 4</code></pre>
-</div>
-</div>
-<p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
+<section id="innledning" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Innledning</h1>
+<p>Tradisjonelt sett er plyometrisk trening den vanligste treningsmetoden for å forbedre en persons evne til rask kraftutvikling, og er derfor ofte brukt innen sprint- og hoppidretter (<strong>ref, en metaanalyse maybe</strong>). Selv om evnen til rask kraftutvikling er viktig for prestasjon, er utvikling av maksimal kraft også viktig. Et individs evne til å produsere impuls, som er et produkt av rate of force development (RFD) og maksimal kraft, er en avgjørende egenskapen for prestasjon i eksplosive og kraftfulle idretter (<strong>ref, boken om impuls</strong>). For å bedre forstå hvordan plyometrisk trening påvirker prestasjon i slike idretter, har jeg valgt ut fem studier som ser nærmere på effekten av plyometrisk trening på muskelstyrke.</p>
+<p>De fem inkluderte studiene vil bli analysert for styrker og svakheter ved hjelpe av QALMRI-metoden (<strong>ref</strong>). I stedet for å gi en detaljert gjennomgang av hver enkelt studie, vil jeg fremheve likheter og forskjeller mellom studiene, med et hovedfokus på deres design og valg av statistiske analyser for å besvare forskningsspørsmålene. Til slutt vil jeg komme med min anbefaling for hvordan fremtidige studier bør designes for best mulig å undersøke effekten av plyometrisk trening på muskelstyrke.</p>
+</section>
+<section id="analyse" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Analyse</h1>
+<p>Besvare spørsmål 1 og 2 1. What was the broader problem the authors are trying to resolve in the study? 2. What are the specific questions the authors are trying to answer?</p>
+<p>Beskriv det overordna målet dei ulike studiene prøver å besvare. Deretter kan man sjå om dei er noko ulikheter mellom kva dei ønsker å studere.</p>
+<p>Kan kanskje lure inn spørsmål 3 her og 3. Is the specific question framed as an hypothesis or a question?</p>
+<p>Svar deretter på spørsmål 4 om det er relevant If the authors have formulated a hypothesis, what alternative explanations can you think of that could potentially explain the data that the authors hypothesize?</p>
+<p>Svare på spørsmål 5 5. What is the logic of the hypothesis or the question. Try to create a “line of logic” between the introduction and the question/hypothesis.</p>
+<p>Kan man kanskje her lage ein figur? Det overordna målet øverst og trekke det ut til kva ulike måtene studiene har valgt å svare på spørsmålet. Også derfra kanskje dele dei inn i dei ulike spørsmålene.</p>
+<section id="metode" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="metode"><span class="header-section-number">2.1</span> Metode</h2>
+<p>Svare på spørsmål 6 6. Describe the study design. Use Hulley, (2013), Chapters 7-13 in your analysis.</p>
+<p>Bruke her pensumboken, og forklare dei ulike metodene.</p>
+<p>Spørsmål 7. og 8. kan besvares i samme avsnitt 7. Describe the sample and if the study defines the population. 8. Describe the method of recruiting participants to the study. Did the authors justify their sample size (i.e.&nbsp;did they do a power calculation)?</p>
+<p>Kva var utvalget og korleis gjorde dei det? Si noko om ulikhet på gruppene melloms studiene - står det noko om dei meiner det er homogene eller heterogene?</p>
+<p>Neste avsnitt skriver eg om spørsmål 9. og 10. 9. Describe how the study was conducted (what tests was performed when etc.) 10. Describe the variables in the study, what variables relate to the question/hypothesis?</p>
+<p>Her er det ganske rett frem. Bruk pensumboken for kva tester som har blitt brukt. Kva variabler har blitt brukt og kvifor er dei relevante?</p>
+<p>Rund av med kva for statistiske tester/analyser har dei brukt for å gjøre interferens? Spm 11. 11. What methods did the authors use to make claims (what statistical tests were used)</p>
+</section>
+<section id="resultat" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="resultat"><span class="header-section-number">2.2</span> Resultat</h2>
+<p>Svar på spørsmål 12 12. What were the main results of the study, did the authors answer their question/address their hypothesis?</p>
+<p>Oppsummer resultatene deires, er det noko forskjell? Har dei svart på det dei ønsket?</p>
+</section>
+<section id="slutninger" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="slutninger"><span class="header-section-number">2.3</span> Slutninger</h2>
+<p>Skriv eit avsnitt der du svarer på både spm 13. og 14 13. What could the authors conclude from the study? 14. What did the authors conclude about the study population?</p>
+</section>
+</section>
+<section id="avrunding" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Avrunding</h1>
+<p>Kom med din anbefaling for hvordan fremtidige studier bør designes for best mulig å undersøke effekten av plyometrisk trening på muskelstyrke.</p>
+<p>Kort og konsist - kan bruke pensumboken for å begrunne kvifor.</p>
 </section>
 
 </main>
