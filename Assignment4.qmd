@@ -19,7 +19,7 @@ csl: resources/apa.csl
 
 Tradisjonelt sett er plyometrisk trening den vanligste treningsmetoden for å forbedre en persons evne til rask kraftutvikling, og er derfor ofte brukt innen sprint- og hoppidretter (**ref, en metaanalyse maybe**). Selv om evnen til rask kraftutvikling er viktig for prestasjon, er utvikling av maksimal kraft også viktig. Et individs evne til å produsere impuls, som er et produkt av rate of force development (RFD) og maksimal kraft, er en avgjørende egenskapen for prestasjon i eksplosive og kraftfulle idretter (**ref, boken om impuls**). For å bedre forstå hvordan plyometrisk trening påvirker prestasjon i slike idretter, har jeg valgt ut fem studier som ser nærmere på effekten av plyometrisk trening på muskelstyrke. 
 
-De fem inkluderte studiene vil bli analysert for styrker og svakheter ved hjelpe av QALMRI-metoden (**ref**). I stedet for å gi en detaljert gjennomgang av hver enkelt studie, vil jeg fremheve likheter og forskjeller mellom studiene, med et hovedfokus på deres design og valg av statistiske analyser for å besvare forskningsspørsmålene. Til slutt vil jeg komme med min anbefaling for hvordan fremtidige studier bør designes for best mulig å undersøke effekten av plyometrisk trening på muskelstyrke. 
+De fem inkluderte studiene vil bli analysert ved hjelp av QALMRI-metoden ("Question", "Alternatives", "Methods", "Results" og "Inferences"), en evidensbasert tilnærming som sikrer en grudig forståelse av nøkkelpunktene og kritisk vurdering av empiriske artikler (@Brosowsky2020). I stedet for å gi en detaljert gjennomgang av hver enkelt studie, vil jeg se på studienes design og valg av statistiske analyser som er brukt for å besvare forskningsspørsmålene. Til slutt vil jeg komme med min anbefaling for hvordan fremtidige studier kan designes for best mulig å undersøke effekten av plyometrisk trening på muskelstyrke. 
 
 # Analyse
 
@@ -80,3 +80,5 @@ Skriv eit avsnitt der du svarer på både spm 13. og 14
 Kom med din anbefaling for hvordan fremtidige studier bør designes for best mulig å undersøke effekten av plyometrisk trening på muskelstyrke.
 
 Kort og konsist - kan bruke pensumboken for å begrunne kvifor. 
+
+Se om du kan skal oppsummere alt i en tabell? Ref side 7 [her](https://bartlettje.github.io/pdfs/2021-10-06-learning-to-read-scientific-journal-articles.pdf)
