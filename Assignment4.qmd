@@ -56,14 +56,48 @@ induced by PT vs. CRT of equal time and effort in individuals with no prior hist
 
 Besvare spørsmål 1 og 2
 1. What was the broader problem the authors are trying to resolve in the study?
+2. What are the specific questions the authors are trying to answer?
 
-De utvalgte studiene har som overordnet mål å undersøke hvordan plyometrisk trening påvirker sentrale aspekter av fysisk prestasjon, inkludert maksimal styrke, eksplosivitet og muskeltykkelse, som er avgjørende i eksplosive og kraftfulle idretter. Hver studie adresserer hver sin spesifikke problemstilling knyttet til dette målet. Fatourus et al. (2000) ønsker å sammenligne effekten ploymetrisk trening, tradisjonell styrketrening og kombinasjonstrening har på vertikal hopp prestasjon (@Fatouros2000). Vissing et al. (2008) undersøker hvilke adaptive endringene i maksimal styrke og power som skjer som følge av enten tradisjonell styrketrening eller plyometrisk styrketrening (@Vissing2008). McKinlay et al. (2018) adresserer hvordan plyometrisk trening påvirker nevromuskulære funksjoner og muskulære tilpasninger hos unge fotballutøvere (@McKinlay2018). Whitehead et al. (2018) fokuserer på kortsiktige effekter av plyometrisk og styrketrening på på muskelstyrke og eksplosiv prestasjon (@Whitehead2018). Mens Harput et al. (2023) utforsker effekten av plyometrisk trening har på hoppytelse, muskeltykkelse og muskelstyrke i quadriceps (@Harput2023).  
+De utvalgte studiene har som overordnet mål å undersøke hvordan plyometrisk trening påvirker sentrale aspekter av fysisk prestasjon, inkludert maksimal styrke, eksplosivitet og muskeltykkelse, som er avgjørende i eksplosive og kraftfulle idretter. Hver studie adresserer hver sin spesifikke problemstilling knyttet til dette målet. Fatourus et al. (2000) ønsker å sammenligne effekten ploymetrisk trening, tradisjonell styrketrening og kombinasjonstrening har på vertikal hopp prestasjon (@Fatouros2000). Vissing et al. (2008) undersøker hvilke adaptive endringene i maksimal styrke og power som skjer som følge av enten tradisjonell styrketrening eller plyometrisk styrketrening (@Vissing2008). McKinlay et al. (2018) adresserer hvordan plyometrisk trening påvirker nevromuskulære funksjoner og muskulære tilpasninger hos unge fotballutøvere (@McKinlay2018). Whitehead et al. (2018) fokuserer på kortsiktige effekter av plyometrisk og styrketrening på muskelstyrke og eksplosiv prestasjon (@Whitehead2018). Mens Harput et al. (2023) utforsker effekten av plyometrisk trening på hoppytelse, muskeltykkelse og muskelstyrke i quadriceps (@Harput2023).  
 
-Kan kanskje lure inn spørsmål 3 her og
+Svar på spørsmål 3
 3. Is the specific question framed as an hypothesis or a question?
+
+Ingen av studiene definerer et klart forskningsspørsmål knytt til problemstillingen sin. De fleste av de aktuelle studiene presenterer en klar hypotese om at plyometrisk trening vil gi lik eller bedre resultater i eksplosivitet, muskelstyrke eller nevromuskulære tilpasninger sammenlignet med andre treningsmetoder, som Harput et al. (2023), Vissing et al. (2008), McKinlay et al. (2018) og Whitehead et al. (2018) (@McKinlay2018;@Harput2023;@Vissing2008;@Whitehead2018). Fatouros et al. (2000) derimot, beskriver heller formålet med studien uten å formulere et forskningsspørsmål eller en hypotese (@Fatouros2000). Tabell 1 viser en oversikt av de enkelte studiene sine hypoteser eller beskrivelse. 
+
+Figur 1
+
+Hypotese:
+
+Whitehead - Det vil ikke være noen signifikant forskjell i muskelprestasjon i underekstremitetene etter kortsiktig plyometrisk trening sammenlignet med styrketrening. 
+
+
+McKinley - Både styrketrening med frie vekter og plyometrisk trening vil føre til signifikante forbedringer i muskelprestasjon og prestasjon i hopp. Det forventes at endringene fra styrketreningen vil i hovedsak være grunnet morfologiske tilpasninger, mens endringene fra plyometrisk trening vil være grunnet forbedret nevromuskulær aktivering. 
+
+Harput - Den plyometrisk trening vil føre til øke tykkelsen av vastus lateralis, tverrsnittsarealet til patellarsenen, quadriceps-styrke og vertikalhopp-høyde, samtidig som det vil redusere ekkointensitet i vastus lateralis hos unge kvinnelige volleyballspillere. 
+
+
+Vissing - Plyometrisk trening vil ha større effekt enn tradisjonell styrketrening på eksplosiv muskelkraft, mens tradisjonell styrketrening vil ha større effekt enn plyometrisk trening på muskelhypertrofi og muskelstyrke. 
+
+Beskrivelse
+
+Fatouros - Formålet med studien var å undersøke hvordan utvalgte variabler på vertikalhopp-prestasjon er påvirket av plyometrisk trening, styrketrening eller en kombinasjon av dei to nevnte treningsmetodene.
+
+
+Spesifikt spørsmål i hver studie - Kanskje legge det inn i en tabell??:
+
+- Fatouros et al. (2000): Hvordan sammenligner plyometrisk trening, styrketrening og en kombinasjon av disse med hensyn til effekt på prestasjon i vertikal hopp og benstyrke?
+- Vissing et al. (2008): Hvilke forskjeller i adaptive endringer i maksimal styrke og power, vil det være mellom maksimal styrketrening og plyometrisk trening hos unge, utrente menn?
+- McKinlay et al. (2018): Hva er forskjellene mellom plyometrisk og styrketrening på nevromuskulær funksjon og muskulære tilpasninger hos unge fotballspillere?
+- Whitehead et al. (2018): Hva er de kortisiktige effektene av plyometrisk trening versus styrketrening på muskelstyrke og eksplosiv prestasjon?
+- Harput et al. (2023): Hvordan påvirker plyometrisk trening hopp-prestasjon, patellarsenen, muskeltykkelse og muskelstyrke i quadriceps hos unge volleyballspillere? 
+
 
 Svar deretter på spørsmål 4 om det er relevant
 If the authors have formulated a hypothesis, what alternative explanations can you think of that could potentially explain the data that the authors hypothesize?
+
+
+
 
 Svare på spørsmål 5
 5. What is the logic of the hypothesis or the question. Try to create a “line of logic” between the introduction and the question/hypothesis.
