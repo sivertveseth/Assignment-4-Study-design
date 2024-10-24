@@ -150,6 +150,9 @@ Neste avsnitt skriver eg om spørsmål 9. og 10.
 9. Describe how the study was conducted (what tests was performed when etc.)
 10. Describe the variables in the study, what variables relate to the question/hypothesis?
 
+I de inkluderte studiene ble ulike tester gjennomført før og etter treningsintervensjonene for å måle endringer i fysisk prestasjon, muskelstyrke og eksplosivitet. Harput et al. (2023) benyttet isokinetiske styrkemålinger og ultralyd for å vurdere muskeltykkelse, styrke og hopphøyde før og etter en seks ukers periode med plyometrisk trening (@Harput2023). Vissing et al. (2008) og McKinlay et al. (2018) brukte på sin side dynamiske tester som vertikale hopp og sprint før og etter treningsperioden (@McKinley2018;@Vissing2018). Selv om alle studiene hadde som mål å undersøke effekten av plyometrisk trening, varierer testdesignene avhengig av spesifikke forskningsspørsmål eller hypoteser. Dette fører til ulike valg av variabler som hopphøyde, muskelstyrke og eksplosivitet, som alle er sentrale faktorer for prestasjon i kraftbaserte idretter (**ref**). Valget av disse variablene reflekterer hver studies formål og hypotese, og illusterer variasjonene i design og metodevalg mellom studiene.  
+
+
 Her er det ganske rett frem. Bruk pensumboken for kva tester som har blitt brukt. Kva variabler har blitt brukt og kvifor er dei relevante?
 
 Rund av med kva for statistiske tester/analyser har dei brukt for å gjøre interferens? Spm 11.
