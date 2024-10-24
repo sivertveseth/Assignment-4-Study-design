@@ -58,7 +58,7 @@ Besvare spørsmål 1 og 2
 1. What was the broader problem the authors are trying to resolve in the study?
 2. What are the specific questions the authors are trying to answer?
 
-De utvalgte studiene har som overordnet mål å undersøke hvordan plyometrisk trening påvirker sentrale aspekter av fysisk prestasjon, inkludert maksimal styrke, eksplosivitet og muskeltykkelse, som er avgjørende i eksplosive og kraftfulle idretter. Hver studie adresserer hver sin spesifikke problemstilling knyttet til dette målet. Fatourus et al. (2000) ønsker å sammenligne effekten ploymetrisk trening, tradisjonell styrketrening og kombinasjonstrening har på vertikal hopp prestasjon (@Fatouros2000). Vissing et al. (2008) undersøker hvilke adaptive endringene i maksimal styrke og power som skjer som følge av enten tradisjonell styrketrening eller plyometrisk styrketrening (@Vissing2008). McKinlay et al. (2018) adresserer hvordan plyometrisk trening påvirker nevromuskulære funksjoner og muskulære tilpasninger hos unge fotballutøvere (@McKinlay2018). Whitehead et al. (2018) fokuserer på kortsiktige effekter av plyometrisk og styrketrening på muskelstyrke og eksplosiv prestasjon (@Whitehead2018). Mens Harput et al. (2023) utforsker effekten av plyometrisk trening på hoppytelse, muskeltykkelse og muskelstyrke i quadriceps (@Harput2023).  
+De utvalgte studiene har som overordnet mål å undersøke hvordan plyometrisk trening påvirker sentrale aspekter av fysisk prestasjon, inkludert maksimal styrke, eksplosivitet og muskeltykkelse, som er avgjørende i eksplosive og kraftfulle idretter. Hver studie adresserer hver sin spesifikke problemstilling knyttet til dette målet. Fatourus et al. (2000) ønsker å sammenligne effekten ploymetrisk trening, tradisjonell styrketrening og kombinasjonstrening har på vertikal hopp prestasjon (@Fatouros2000). Vissing et al. (2008) undersøker hvilke adaptive endringene i maksimal styrke og power som skjer som følge av enten tradisjonell styrketrening eller plyometrisk styrketrening (@Vissing2008). McKinlay et al. (2018) adresserer hvordan plyometrisk trening påvirker nevromuskulære funksjoner og muskulære tilpasninger hos unge fotballutøvere (@McKinlay2018). Whitehead et al. (2018) fokuserer på kortsiktige effekter av plyometrisk og styrketrening på muskelstyrke og eksplosiv prestasjon (@Whitehead2018). Mens Harput et al. (2023) utforsker effekten av plyometrisk trening på hoppytelse, muskeltykkelse og muskelstyrke i quadriceps hos unge kvinnlige volleyballspillere (@Harput2023).  
 
 Svar på spørsmål 3
 3. Is the specific question framed as an hypothesis or a question?
@@ -111,6 +111,28 @@ Kan man kanskje her lage ein figur? Det overordna målet øverst og trekke det u
 Svare på spørsmål 6
 6. Describe the study design. Use Hulley, (2013), Chapters 7-13 in your analysis.
 
+Valg av studiedesign er avgjørende for å kunne svare på forskningsspørsmålet eller teste hypoteser.Studiedesignet strukturerer studien på en måte som gjør det mulig å trekke holdbare slutninger (@browner2022, s.3). Valget av design avhenger blant annet om man planlegger å igangsette en intervensjon for å undersøke dens effekter. Slike studier, kjent som analytiske studier, prøver å evaluere sammenhenger og trekke slutninger om årsak-virkning-forholdet (@browner2022, s.5). En typisk analytisk studiedesign er en randomisert kontrollert studie (RCT). Før man gjennomfører en slik studie, er det vanlig at deskriptive studier har blitt utført for å undersøke karakteristikker ved en populasjonen, som for eksempel muskelmasse hos eliteutøvere (@browner2022, s.4). En tydelig beskrivelse av studiedesignet og begrunnelse av valget er avgjørende for å gi leserne instinkt i forskerens vurderinger. 
+
+Som nevnt tidligere, er det overordnet målet med de utvalgte studiene å undersøke hvordan plyometrisk trening påvirker fysisk prestasjon, inkludert maksimal styrke, eksplosivitet og muskelmasse. Fire av studiene har valgt å tilfeldig fordele deltakerne til enten å gjennomføre trening (intervensjon) eller ikke (kontroll) (@Fatouros2000;@McKinlay2018;@Vissing2008;@Whitehead2018), slik det gjøres i en RCT-studie. Den femte studien valgte imidlertid et prospektivt kohortdesign, der deltakerne ble fulgt opp over tid uten randomisering (@Harput2023).Ved å randomisere deltagerne mellom gruppene i RCT-studiene minimeres påvirkningen av konfunderende variabler som kan forstyrre resultatene, mens kohortstudier gir mulioghet til å observere naturlige endringer i en populasjon over tid uten intervensjon i gruppefordelingen (@browner2022, s.4, 6, 116, 196). 
+
+I RCT-studiene som Fatouros et al. (2000), McKinlay et al. (2018), Vissing et al. (2008) og Whitehead et al.(2018) gjennomførte, vil valget om randomisering bidra til å redusere risikoen for at andre faktorer enn treningen selv påvirket resultatene, som treningsbakgrunn, noe som vil styrke validiteten av konklusjonene om årsakssammenheng mellom intervensjon og fysisk prestasjon. Ingen av studiene benyttet derimot blinding i sitt design, noe som kan ha introdusert rapporteringsbias, særlig siden både deltakerne og forskerne visste hvilken gruppe deltakerne tilhørte (@browner2022, s.196, 397). Dette er ikke noe nytt for treningsintervensjoner, der det er praktisk vanskelig å skjule gruppetilhørlighet. 
+
+I kohortstudien av Harput et al. (2023), var det derimot ikke mulig å bruke randomisering. Forskerne fulgte deltakerne over tid for å observere endringer etter en allerede igangsatt treningsintervensjon, noe som tillot forskerne å se naturlige variasjoner i prestasjonene uten inngrep i gruppefordelingen (@browner2022 s.4, 116). Samtidig gjør dette at kohortstudier er mer utsatt for konfunderende variabler, siden deltakerne ikke blir tilfeldig fordelt i grupper. Dette kan påvirke validiteten i forhold til årsakassammenhenger, men samtidig er slike design mer gjennomførbar for å undersøke langtidseffekter i en realistisk setting. 
+
+
+
+Basis
+Kap 2 s.17-26 - Utvikle studieplan
+Kap 3 s.26-39 - Utvalg
+Kap 4 s.39-52 - Målinger
+kap 5 s.52 - Estimere utvalgsstørrelse
+
+Studiedesign
+Kap 8 s.116-138 - Tverrsnitsstudie og kohortstudier
+Kap 9 s.138-157 - Case-control studie
+Kap 10 s.157-196 - Kausal effekt ved å bruke observasjonsstudier
+Kap 11 s.196-221 - Designe RCT
+Kap 12 s.221-240 - Alternative studiedesign
 Bruke her pensumboken, og forklare dei ulike metodene. 
 
 Spørsmål 7. og 8. kan besvares i samme avsnitt
