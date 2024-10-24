@@ -139,7 +139,12 @@ Spørsmål 7. og 8. kan besvares i samme avsnitt
 7. Describe the sample and if the study defines the population.
 8. Describe the method of recruiting participants to the study. Did the authors justify their sample size (i.e. did they do a power calculation)?
 
-Kva var utvalget og korleis gjorde dei det? Si noko om ulikhet på gruppene melloms studiene - står det noko om dei meiner det er homogene eller heterogene?
+Ingen av studiene definerer eller beskriver en bestemt populasjon i detalj, og det er varierende grad av informasjon om deltakerne. Generelt tar studiene for seg unge, aktive idrettsutøvere eller utrente menn/ungdommer, men ikke alle går i dybden på demografiske faktorer som kan påvirke generaliserbarheten av resultatene (@browner2022, s.26-27). For eksempel bestod utvalget i Vissing et al. (2008) av en relativt homogen gruppe med utrente menn, mens Harput et al. (2023) fokuserte på en mer spesifikk, men potensielt heterogen gruppe av unge volleyballspillere (@Vissing2008;@Harput2023). Selv om informasjon om gruppene kan være mangelfull, ser de fleste studiene ut til å ha relativt homogene utvalg med hensyn til treningsstatus og idrettsbakgrunn.  
+
+Det er blitt brukt varierende metoder for å rekruttere deltakere i studiene, og graden av detaljer informasjon om rekruttering og begrunnelse for utvalgsstørrelse varierer. Både Vissing et al. (2008) og Fatouros et al. (2000) rekrutterte frivillige (@Fatouros2000;@Vissing2008), mens Harput et al. (2023) brukte en kohort av volleyballspillere (@Harput2023). De to siste studiene gir derimot lite informasjon om rekrutteringsprosessen, men det kan virke som deltagerne er rekruttert fra lokale ungdomslag. 
+
+Kun Vissing et al. (2008) rapporterte en power-beregning for å sikre tilstrekkelig statistisk styrke (0.8), mens de andre ikke oppga dette (@Vissing2008, s.1830). Power referer til sannsynligheten for å oppdage en statistisk signifikant forskjell i utfall mellom gruppene, gitt at det eksisterer en slik forskjell (@browner2022, s.6). En power-beregning beregner hvor mange deltakere som trengs i hver gruppe av studien for å ha en viss sannsynlighet for å finne en signifikant forskjell dersom den finnes (@browner2022, s.6) Når Vissing et al. (2008) oppgir en power på 0.8, betyr det at de med 80% sannsynlighet vil kunne oppdage en forskjell dersom den eksisterer. Mangel på power-beregning i de andre studiene kan svekke deres evne til å trekke pålitelige konklusjoner. 
+
 
 Neste avsnitt skriver eg om spørsmål 9. og 10.
 9. Describe how the study was conducted (what tests was performed when etc.)
