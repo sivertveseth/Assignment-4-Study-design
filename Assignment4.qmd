@@ -188,6 +188,12 @@ set at p # 0.05.
 Svar på spørsmål 12
 12. What were the main results of the study, did the authors answer their question/address their hypothesis?
 
+Studiene dokumenterer samlet sett en positiv effekt av plyometrisk trening på sentrale prestasjonsmål som muskelstyrke, eksplosivitet og hopphøyde sammenlignet med kontrollgruppene (@Fatouros2000, s.474;@Harput2023, s.93;@McKinlay2018, s.3046;@Vissing2008, s.1804;@Whitehead2018, s.2747). For eksempel rapporterte Harput et al. (2023) signifikante forbedringer i hopphøyde og quadriceps-styrke etter seks uker med strukturert plyometrisk trening (@Harput2023, s.93). Vissing et al. (2008) viste at plyometrisk trening førte til målbare økninger i eksplosiv styrke, inkludert forbedrede resultater i vertikale hopp og sprinttid (@Vissing2008, s.1804). På tilsvarende måte dokumenterte McKinlay et al. (2018) at regelmessig plyometrisk trening hos unge fotballspillere førte til en markant forbedring i nevromuskulær funksjon og styrke (@McKinlay2018, s.3046).
+
+Fatouros et al. (2000) fant også at plyometrisk trening kombinert med styrketrening resulterte i ytterligere forbedringer, sammenlignet med plyometrisk trening alene (@Fatouros2000, s.474). Totalt sett belyser disse funnene forskningsspørsmålene og hypotesene is tudiene, og dokumenterer målbare forbedringer i prestasjon som et resultat av plyometrisk trening, både alene og i kombinasjon med andre treningsformer.  
+
+
+
 Oppsummer resultatene deires, er det noko forskjell? Har dei svart på det dei ønsket?
 
 ## Slutninger
