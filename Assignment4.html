@@ -55,6 +55,35 @@ div.csl-indent {
 <link href="Assignment4_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="Assignment4_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -174,10 +203,23 @@ div.csl-indent {
 <p>I de inkluderte studiene ble ulike tester gjennomført før og etter treningsintervensjonene for å måle endringer i fysisk prestasjon, muskelstyrke og eksplosivitet. Harput et al.&nbsp;(2023) benyttet isokinetiske styrkemålinger og ultralyd for å vurdere muskeltykkelse, styrke og hopphøyde før og etter en seks ukers periode med plyometrisk trening (<span class="citation" data-cites="Harput2023">Harput et al. (<a href="#ref-Harput2023" role="doc-biblioref">2023</a>)</span>). Vissing et al.&nbsp;(2008) og McKinlay et al.&nbsp;(2018) brukte på sin side dynamiske tester som vertikale hopp og sprint før og etter treningsperioden (<span class="citation" data-cites="McKinlay2018">McKinlay et al. (<a href="#ref-McKinlay2018" role="doc-biblioref">2018</a>)</span>;<span class="citation" data-cites="Vissing2008">Vissing et al. (<a href="#ref-Vissing2008" role="doc-biblioref">2008</a>)</span>). Selv om alle studiene hadde som mål å undersøke effekten av plyometrisk trening, varierer testdesignene avhengig av spesifikke forskningsspørsmål eller hypoteser. Dette fører til ulike valg av variabler som hopphøyde, muskelstyrke og eksplosivitet, som alle er sentrale faktorer for prestasjon i kraftbaserte idretter (<strong>ref</strong>). Valget av disse variablene reflekterer hver studies formål og hypotese, og illusterer variasjonene i design og metodevalg mellom studiene.</p>
 <p>Her er det ganske rett frem. Bruk pensumboken for kva tester som har blitt brukt. Kva variabler har blitt brukt og kvifor er dei relevante?</p>
 <p>Rund av med kva for statistiske tester/analyser har dei brukt for å gjøre interferens? Spm 11. 11. What methods did the authors use to make claims (what statistical tests were used)</p>
+<p>Som tidligere nevnt, har de inkluderte studiene som mål å undersøke hvordan plyometrisk trening påvirker viktige utfallsmål på fysisk prestasjon, som muskelstyrke og hopphøyde. Selv om studiene benytter ulike studiedesign og variabler, tilpasset sitt spesifikke forskningsspørsmål eller hypoteser, har de alle til felles at de måler endringer i sine definerte utfallsmål over tid og mellom treningsintervensjoner. For å kunne trekke konklusjoner om effekten av intervensjonene har ale studiene valgt Analysis of Variance (ANOVA) som sin primære statistiske metode.</p>
+<p>ANOVA er en statistisk test som gjør det mulig å sammenligne gjennomsnittet mellom flere grupper for å avgjøre om variasjonen mellom gruppene er så stor at det er usannsynlig å anta at det kun skyldes tilfeldigheter (<span class="citation" data-cites="Diez2022">Diez et al. (<a href="#ref-Diez2022" role="doc-biblioref">2022</a>)</span>, s.322, 326). I denne analysen beregnes mean square between groups (MSG), som representerer variabiliteten mellom gruppene. Dette sammenlignes med mean square error (MSE), som refleterer variasjonene innenfor hver gruppe, og gir et mål på naturlig variasjon når nullhypotesen er sann (<span class="citation" data-cites="Diez2022">Diez et al. (<a href="#ref-Diez2022" role="doc-biblioref">2022</a>)</span>, s.326). Forholdet mellom MSG og MSE, utgjør F-statistikken:</p>
+<p><span class="math display">\[
+F = \frac{MSG}{MSE}
+\]</span> En høy F-verdi indikerer at forskjellen mellom gruppene er stor sammenlignet med variasjonene innad i gruppene, noe som kan tyde på en signifikant effekt av treningen (<span class="citation" data-cites="Diez2022">Diez et al. (<a href="#ref-Diez2022" role="doc-biblioref">2022</a>)</span>, s.326-327). Det er viktigå påpeke at for at ANOVA skal gi sterke bevis mot nullhypotesen om at utvalggjennomsnittene (<span class="math inline">\(\mu_i\)</span>) er like, må flere forutsetninger være oppfylt. For det første må observasjonene være uavhengige både innad og mellom gruppene. Videre må dataene innenfor hver gruppe være tilnærmet normalfordelt, og variasjonen mellom gruppene er lik (<span class="citation" data-cites="Diez2022">Diez et al. (<a href="#ref-Diez2022" role="doc-biblioref">2022</a>)</span>, s.322).</p>
+<p>I de inkluderte studiene ble både en-veis og to-veis ANOVA brukt for å analysere dataene. En-veis ANOVA sammenligner gjennomsnittene mellom flere grupper ved å bruke en avhengig variable for å avgjøre om det finnes en statistisk signifikant forskjell mellom gruppene (<span class="citation" data-cites="Diez2022">Diez et al. (<a href="#ref-Diez2022" role="doc-biblioref">2022</a>)</span>, s.323-325). To-veis ANOVa evaluerer effekten av to forskjellige faktorer på resultatet, noe som gjør det mulig å undersøke både hoved- og samspilleffekter mellom de to faktorene (<span class="citation" data-cites="Diez2022">Diez et al. (<a href="#ref-Diez2022" role="doc-biblioref">2022</a>)</span>, s.329-331). For eksempel brukte Whitehead et al.&nbsp;(2018) en-veis ANOVA for å sammenligne baseline data mellom gruppene (<span class="citation" data-cites="Whitehead2018">Whitehead et al. (<a href="#ref-Whitehead2018" role="doc-biblioref">2018</a>)</span>, s.2746). Harput et al.&nbsp;(2023) og McKinlay et al.&nbsp;(2018) brukte to-veis ANOVA for å undersøke interaksjonen mellom tid (før og etter intervensjon) og gruppetilhørlighet (treningsintervensjon versus kontroll) (<span class="citation" data-cites="Harput2023">Harput et al. (<a href="#ref-Harput2023" role="doc-biblioref">2023</a>)</span>, s.92-93;<span class="citation" data-cites="McKinlay2018">McKinlay et al. (<a href="#ref-McKinlay2018" role="doc-biblioref">2018</a>)</span>, s.3046). Mens ANOVA forteller at det finnes forskjeller mellom gruppene, sier den ikke noe om hvilke grupper som faktisk skiller seg fra hverandre, noe som gjør det vanskelig å sammenligne treningsintervensjonene opp mot hverandre. For å identifisere spesifikke gruppedifferanser når ANOVA viste signifikante resultater, benyttet flere av studiene post hoc-tester som Bonferroni (<span class="citation" data-cites="spieg2019">Spiegelhalter (<a href="#ref-spieg2019" role="doc-biblioref">2019</a>)</span>, s.280) med signifikansnivå på <span class="math inline">\(p \leq 0.05\)</span>. Disse tilleggs analysene tillot en mer detaljert undersøkelse av hvor forskjellene mellom gruppene oppstod, noe som var avgjørende for å vurdere treningsinduserteeffekter.</p>
+<p>Whitehead - ANOVA på alle baseline dataene, for å se om det var noko forskjell. Grunnet forskjeller pre, ble all data konventert til prosentvis endring fra pre til post for å addresere between-group forskjellene. ANOVA ble også gjort på den prosentvise endringen pre-post for å avgjøre between-group forskjeller, og ble følgt opp med Bonferroni post hoc test for å avgjøre hvor forskjellene hadde skjedd. P&lt;0.05.</p>
+<p>Harput - Ble gjort i SPSS. Gj.sn og st.avvik for deskriptiv data. For å sjekke om det dataene var normalfordelt, ble det gjort en Shapiro-Wilk test. Intraclass coefficient og standardfeil av ultralyd målingene ble gjort. Det ble også utført en to-veis måles ANOVA for å undersøke samspillet mellom tid (før og etter intervensjon) og lem (for eksempel høyre vs.&nbsp;venstre ben) for variabler som muskeltykkelse og styrke. Ved bruk av ANOVA kunne forfatterne evaluere om det var signifikante forskjeller over tid og mellom lemmer, noe som underbygger eventuelle endringer relatert til treningen. Når ANOVA viste signifikante resultater, ble Bonferroni post hoc-test brukt for parvise sammenligninger. Dette justerer signifikansnivåene for å minske risikoen for feil ved multiple sammenligninger, og gir presise sammenligninger mellom grupper. For å vurdere forskjellen i vertikal hopplengde mellom to tidspunkter, benyttet de parvis t-test. Denne testen sammenligner gjennomsnittlige endringer fra pre- til post-test, og støtter konklusjoner om forbedring i hoppytelse.I tillegg til signifikansnivåer, rapporterte forfatterne effektstørrelser for å vurdere hvor stor effekt treningen hadde på variabler som muskeltykkelse og styrke. Cohen’s d ble brukt til å klassifisere effekten som stor, moderat, liten eller neglisjerbar, noe som gir en mer nyansert forståelse av resultatene utover bare signifikans.</p>
+<p>McKinlay - Bel gjort i SPSS. All data er presentert som gj.sn og std. Gj.snittet av dei to beste kontraksjonene for hver kontraksjonstype og deltager ble brukt i analysen. Forskjell på muskelprestasjon og nevromuskulær funksjon mellom gruppene ved baseline ble utregnet ved hjelp av en-veis ANOVA. Effekten av intervensjonen ble bestemt med hjelp av en to-veis ANOVA for repeterte-målinger med en within-subject main effect (time) and one between-subject main effect (group). When a significant group-by-time interaction was observed, univariate gain scores were calculated, and a pairwise comparison, using the Bonferroni correction, was used to determine the between-group differences. Covariates were used when appropriate, as indicated below. The acceptable level of significance was set at p # 0.05.</p>
+<p>Fatouros - Det ble benyttet en 2-veis ANOVA for å teste for statistisk signifikans på alle variablene over tid. Viss det var en signifikant F ratio, ble det utført en Newmann-Keuls post hoc teknikk for å forklare endringene. Benytter seg av p-vedi&lt;0.05.</p>
+<p>Vissing - Results are presented as mean 6 SEM unless otherwise stated. All data were statistically analyzed using two-way ANOVA with repeated measures and Student-NewmanKeuls post hoc test when allowed. Level of significance was set at p # 0.05.</p>
 </section>
 <section id="resultat" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="resultat"><span class="header-section-number">2.2</span> Resultat</h2>
 <p>Svar på spørsmål 12 12. What were the main results of the study, did the authors answer their question/address their hypothesis?</p>
+<p>Studiene dokumenterer samlet sett en positiv effekt av plyometrisk trening på sentrale prestasjonsmål som muskelstyrke, eksplosivitet og hopphøyde sammenlignet med kontrollgruppene (<span class="citation" data-cites="Fatouros2000">Fatouros et al. (<a href="#ref-Fatouros2000" role="doc-biblioref">2000</a>)</span>, s.474;<span class="citation" data-cites="Harput2023">Harput et al. (<a href="#ref-Harput2023" role="doc-biblioref">2023</a>)</span>, s.93;<span class="citation" data-cites="McKinlay2018">McKinlay et al. (<a href="#ref-McKinlay2018" role="doc-biblioref">2018</a>)</span>, s.3046;<span class="citation" data-cites="Vissing2008">Vissing et al. (<a href="#ref-Vissing2008" role="doc-biblioref">2008</a>)</span>, s.1804;<span class="citation" data-cites="Whitehead2018">Whitehead et al. (<a href="#ref-Whitehead2018" role="doc-biblioref">2018</a>)</span>, s.2747). For eksempel rapporterte Harput et al.&nbsp;(2023) signifikante forbedringer i hopphøyde og quadriceps-styrke etter seks uker med strukturert plyometrisk trening (<span class="citation" data-cites="Harput2023">Harput et al. (<a href="#ref-Harput2023" role="doc-biblioref">2023</a>)</span>, s.93). Vissing et al.&nbsp;(2008) viste at plyometrisk trening førte til målbare økninger i eksplosiv styrke, inkludert forbedrede resultater i vertikale hopp og sprinttid (<span class="citation" data-cites="Vissing2008">Vissing et al. (<a href="#ref-Vissing2008" role="doc-biblioref">2008</a>)</span>, s.1804). På tilsvarende måte dokumenterte McKinlay et al.&nbsp;(2018) at regelmessig plyometrisk trening hos unge fotballspillere førte til en markant forbedring i nevromuskulær funksjon og styrke (<span class="citation" data-cites="McKinlay2018">McKinlay et al. (<a href="#ref-McKinlay2018" role="doc-biblioref">2018</a>)</span>, s.3046).</p>
+<p>Fatouros et al.&nbsp;(2000) fant også at plyometrisk trening kombinert med styrketrening resulterte i ytterligere forbedringer, sammenlignet med plyometrisk trening alene (<span class="citation" data-cites="Fatouros2000">Fatouros et al. (<a href="#ref-Fatouros2000" role="doc-biblioref">2000</a>)</span>, s.474). Totalt sett belyser disse funnene forskningsspørsmålene og hypotesene is tudiene, og dokumenterer målbare forbedringer i prestasjon som et resultat av plyometrisk trening, både alene og i kombinasjon med andre treningsformer.</p>
 <p>Oppsummer resultatene deires, er det noko forskjell? Har dei svart på det dei ønsket?</p>
 </section>
 <section id="slutninger" class="level2" data-number="2.3">
@@ -200,6 +242,9 @@ Brosowsky, N. P., Parshina, O., Locicero, A., &amp; Crump, M. J. C. (2020). <em>
 <div id="ref-browner2022" class="csl-entry" role="listitem">
 Browner, W. S., Newman, T. B., Cummings, S. R., Grady, D. G., Huang, A. J., Kanaya, A. M., &amp; Pletcher, M. J. (2022). <em>Designing clinical research</em> (5th ed.). Lippincott Williams &amp; Wilkins.
 </div>
+<div id="ref-Diez2022" class="csl-entry" role="listitem">
+Diez, D. M., Barr, C. D., &amp; Çetinkaya-Rundel, M. (2022). <em>OpenIntro statistics</em> (4th ed.). OpenIntro, Inc.
+</div>
 <div id="ref-Fatouros2000" class="csl-entry" role="listitem">
 Fatouros, I. G., Jamurtas, A. Z., Leontsini, D., Taxildaris, K., Aggelousis, N., Kostopoulos, N., &amp; Buckenmeyer, P. (2000). Evaluation of plyometric exercise training, weight training, and their combination on vertical jumping performance and leg strength. <em>Journal of Strength and Conditioning Research</em>, <em>14</em>(4), 470–476.
 </div>
@@ -211,6 +256,9 @@ Markovic, G., &amp; Mikulic, P. (2010). Neuro-musculoskeletal and performance ad
 </div>
 <div id="ref-McKinlay2018" class="csl-entry" role="listitem">
 McKinlay, B. J., Wallace, P., Dotan, R., Long, D., Tokuno, C., Gabriel, D. A., &amp; Falk, B. (2018). Effects of plyometric and resistance training on muscle strength, explosiveness, and neuromuscular function in young adolescent soccer players. <em>Journal of Strength and Conditioning Research</em>, <em>32</em>(11), 3039–3050.
+</div>
+<div id="ref-spieg2019" class="csl-entry" role="listitem">
+Spiegelhalter, D. J. (2019). <em>The art of statistics : Learning from data</em> (1th ed.). Pelican.
 </div>
 <div id="ref-Vissing2008" class="csl-entry" role="listitem">
 Vissing, K., Brink, M., Lønbro, S., Sørensen, H., Overgaard, K., Danborg, K., Mortensen, J., Elstrøm, O., Rosenhøj, N., Ringgaard, S., Andersen, J. L., &amp; Aagaard, P. (2008). Muscle adaptations to plyometric vs. Resistance training in untrained young men. <em>Journal of Strength and Conditioning Research</em>, <em>22</em>(6), 1799–1810.
